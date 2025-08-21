@@ -256,14 +256,14 @@ cmd({
       }]
     }];
     const _0x3106fe = {
-      'text': "*_🛠️ VISPER SETTINGS INFO ⚒️_*\n\n",
+      'text': "*_🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️_*\n\n",
       'footer': config.FOOTER,
       'title': '',
       'buttonText': "*🔢 Reply below number*",
       'sections': _0xfd8daf
     };
     const _0x178ed1 = {
-      'title': "❯❯ Choose a setting to toggle ❮❮",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "General Settings ⚙️",
         'rows': [{
@@ -395,7 +395,7 @@ cmd({
         'image': {
           'url': config.LOGO
         },
-        'caption': "*_🛠️ VISPER SETTINGS INFO ⚒️_*",
+        'caption': "*_🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️_*",
         'footer': config.FOOTER,
         'buttons': [{
           'buttonId': "Video quality list",
@@ -1208,7 +1208,7 @@ cmd({
     if (!_0x27dbd5 && !_0xefc4aa) {
       return await _0x4d4073("*OWNER COMMAND ⛔*");
     }
-    let _0x372a41 = "*`↔️ VISPER CHANGE DATABASE INFO ↔️`*\n\n*┌──────────────────┐*\n*├ 🔮Input :* " + _0x171729 + "\n*└──────────────────┘*";
+    let _0x372a41 = "*`↔️ DARK-KNIGHT MD CHANGE DATABASE INFO ↔️`*\n\n*┌──────────────────┐*\n*├ 🗃️Input :* " + _0x171729 + "\n*└──────────────────┘*";
     const _0x2bb4a2 = [{
       'buttonId': _0x2142f5 + "setprefix " + _0x171729,
       'buttonText': {
@@ -1272,7 +1272,7 @@ cmd({
     }];
     const _0x4f2bcb = {
       'image': {
-        'url': config.LOGO
+        'url': "https://files.catbox.moe/brlkte.jpg"
       },
       'caption': _0x372a41,
       'footer': config.FOOTER,
@@ -1281,9 +1281,9 @@ cmd({
     };
     if (config.BUTTON === "true") {
       const _0x6c44b7 = {
-        'title': "Change Database :)",
+        'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
         'sections': [{
-          'title': "VISPER-MD-DATABASE-INFO",
+          'title': "DARK-KNIGHT MD DATABASE INFO",
           'rows': [{
             'title': "Change bot prefix",
             'description': '',
@@ -1329,7 +1329,7 @@ cmd({
       };
       return await _0x4ad9af.sendMessage(_0x48e3c7, {
         'image': {
-          'url': config.LOGO
+          'url': "https://files.catbox.moe/brlkte.jpg"
         },
         'caption': _0x372a41,
         'footer': config.FOOTER,
