@@ -69,7 +69,7 @@ cmd({
       return await _0x4a19d6("*OWNER COMMAND ⛔*");
     }
     const _0xfd8daf = [{
-      'title': "`🔮 WORK_TYPE 🔮`",
+      'title': "`🛠️ WORK_TYPE ⚒️`",
       'rows': [{
         'title': "_PUBLIC ✔️_",
         'rowId': _0x352c08 + "work_type public"
@@ -84,7 +84,7 @@ cmd({
         'rowId': _0x352c08 + "work_type inbox"
       }]
     }, {
-      'title': "`🔮 AUTO_STATUS_READ 🔮`",
+      'title': "`🛠️ AUTO_STATUS_READ ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autos on"
@@ -93,7 +93,7 @@ cmd({
         'rowId': _0x352c08 + "autos off"
       }]
     }, {
-      'title': "`🔮 AUTO_MSG_READ 🔮`",
+      'title': "`🛠️ AUTO_MSG_READ ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autoread on"
@@ -102,7 +102,7 @@ cmd({
         'rowId': _0x352c08 + "autoread off"
       }]
     }, {
-      'title': "`🔮 AUTO_RECORDING 🔮`",
+      'title': "`🛠️ AUTO_RECORDING ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autorec on"
@@ -111,7 +111,7 @@ cmd({
         'rowId': _0x352c08 + "autorec off"
       }]
     }, {
-      'title': "`🔮 AUTO_TYPING 🔮`",
+      'title': "`🛠️ AUTO_TYPING ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autotyping on"
@@ -120,7 +120,7 @@ cmd({
         'rowId': _0x352c08 + "autotyping off"
       }]
     }, {
-      'title': "`🔮 READ_ONLY_COMMANDS 🔮`",
+      'title': "`🛠️ READ_ONLY_COMMANDS ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "ronly on"
@@ -129,7 +129,7 @@ cmd({
         'rowId': _0x352c08 + "ronly off"
       }]
     }, {
-      'title': "`🔮 AUTO_BLOCK 🔮`",
+      'title': "`🛠️ AUTO_BLOCK ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autoblock on"
@@ -138,7 +138,7 @@ cmd({
         'rowId': _0x352c08 + "autoblock off"
       }]
     }, {
-      'title': "`🔮 ANTI_CALL 🔮`",
+      'title': "`🛠️ ANTI_CALL ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "anticall on"
@@ -147,7 +147,7 @@ cmd({
         'rowId': _0x352c08 + "anticall off"
       }]
     }, {
-      'title': "`🔮 AUTO_REACT 🔮`",
+      'title': "`🛠️ AUTO_REACT ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autoreact on"
@@ -156,7 +156,7 @@ cmd({
         'rowId': _0x352c08 + "autoreact off"
       }]
     }, {
-      'title': "`🔮 AI_CHAT 🔮`",
+      'title': "`🛠️ AI_CHAT ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "chatbot on"
@@ -165,7 +165,7 @@ cmd({
         'rowId': _0x352c08 + "chatbot off"
       }]
     }, {
-      'title': "`🔮 ANTI_DELETE 🔮`",
+      'title': "`🛠️ ANTI_DELETE ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "antdel on"
@@ -174,7 +174,7 @@ cmd({
         'rowId': _0x352c08 + "antdel off"
       }]
     }, {
-      'title': "`🔮 ANTI_LINK 🔮`",
+      'title': "`🛠️ ANTI_LINK ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "antilink on"
@@ -183,7 +183,7 @@ cmd({
         'rowId': _0x352c08 + "antilink off"
       }]
     }, {
-      'title': "`🔮 ANTILINK_ACTION 🔮`",
+      'title': "`🛠️ ANTILINK_ACTION ⚒️`",
       'rows': [{
         'title': "_Delete ✔️_",
         'rowId': _0x352c08 + "antilinkaction delete"
@@ -192,7 +192,7 @@ cmd({
         'rowId': _0x352c08 + "antilinkaction remove"
       }]
     }, {
-      'title': "`🔮 ANTIBAD_ACTION 🔮`",
+      'title': "`🛠️ ANTIBAD_ACTION ⚒️`",
       'rows': [{
         'title': "_Delete ✔️_",
         'rowId': _0x352c08 + "antibadaction delete"
@@ -201,7 +201,7 @@ cmd({
         'rowId': _0x352c08 + "antibadaction remove"
       }]
     }, {
-      'title': "`🔮 ANTI_BOT 🔮`",
+      'title': "`🛠️ ANTI_BOT ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "antibot on"
@@ -210,7 +210,7 @@ cmd({
         'rowId': _0x352c08 + "antibot off"
       }]
     }, {
-      'title': "`🔮 ANTI_BAD 🔮`",
+      'title': "`🛠️ ANTI_BAD ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "antibad on"
@@ -219,7 +219,7 @@ cmd({
         'rowId': _0x352c08 + "antibad off"
       }]
     }, {
-      'title': "`🔮 XNXX_BLOCK 🔮`",
+      'title': "`🛠️ XNXX_BLOCK ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "xblock on"
@@ -228,7 +228,7 @@ cmd({
         'rowId': _0x352c08 + "xblock off"
       }]
     }, {
-      'title': "`🔮 MOVIE_BLOCK 🔮`",
+      'title': "`🛠️ MOVIE_BLOCK ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "mvblock on"
@@ -237,7 +237,7 @@ cmd({
         'rowId': _0x352c08 + "mvblock off"
       }]
     }, {
-      'title': "`🔮 ALWAYS_ONLINE 🔮`",
+      'title': "`🛠️ ALWAYS_ONLINE ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "alo off"
@@ -246,7 +246,7 @@ cmd({
         'rowId': _0x352c08 + "alo on"
       }]
     }, {
-      'title': "`🔮 AUTO_VOICE 🔮`",
+      'title': "`🛠️ AUTO_VOICE ⚒️`",
       'rows': [{
         'title': "_ON ✔️_",
         'rowId': _0x352c08 + "autovoice on"
@@ -256,7 +256,7 @@ cmd({
       }]
     }];
     const _0x3106fe = {
-      'text': "*_⚙️ VISPER SETTINGS INFO ⚙️_*\n\n",
+      'text': "*_🛠️ VISPER SETTINGS INFO ⚒️_*\n\n",
       'footer': config.FOOTER,
       'title': '',
       'buttonText': "*🔢 Reply below number*",
@@ -395,7 +395,7 @@ cmd({
         'image': {
           'url': config.LOGO
         },
-        'caption': "*_⚙️ VISPER SETTINGS INFO ⚙️_*",
+        'caption': "*_🛠️ VISPER SETTINGS INFO ⚒️_*",
         'footer': config.FOOTER,
         'buttons': [{
           'buttonId': "Video quality list",
