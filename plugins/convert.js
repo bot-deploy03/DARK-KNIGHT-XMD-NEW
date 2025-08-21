@@ -95,7 +95,7 @@ cmd({
       const _0x67e284 = await fileType.fromBuffer(_0xcbb221);
       await fs.promises.writeFile('./' + _0x67e284.ext, _0xcbb221);
       const _0x51a10d = await imbb('./' + _0x67e284.ext);
-      await _0xa420db("*🍟Here is the image URL:* \n\n" + _0x51a10d);
+      await _0xa420db("*🖼️Here is the image URL:* \n\n" + _0x51a10d);
     } else {
       return _0xa420db("Please reply to an image or send an image.");
     }
@@ -106,7 +106,7 @@ cmd({
 });
 cmd({
   'pattern': "sticker",
-  'react': '🔮',
+  'react': '🔄',
   'alias': ['s', "stic"],
   'desc': "Convert to sticker",
   'category': "convert",
@@ -240,7 +240,7 @@ cmd({
 });
 cmd({
   'pattern': "tts",
-  'react': '❄️',
+  'react': '🎤',
   'desc': "text to speech.",
   'category': 'convert',
   'filename': __filename,
@@ -445,7 +445,7 @@ cmd({
   'pattern': "jsobfus",
   'desc': "Js code obfus.",
   'alias': ["encript", "obfus"],
-  'react': '🫧',
+  'react': '📄',
   'use': ".jsobfus js code",
   'category': 'convert',
   'filename': __filename
@@ -581,7 +581,7 @@ cmd({
     const _0x46a501 = "https://www.npmjs.com/package/" + _0x2b7f08;
     const _0x420f0e = _0xd0bf2.license || "Unknown";
     const _0x23b7f4 = _0xd0bf2.repository ? _0xd0bf2.repository.url || "Not available" : "Not available";
-    let _0x355f11 = "\n*`💃 VISPER NPM SEARCH 💃`*\n\n*┌──────────────────*\n*├ 🦑 Npm name :* " + _0x2b7f08 + "\n*├ 💨 Description :* " + _0x2001c4 + "\n*├ ⏩ latest version :* " + _0xdb7312 + "\n*├ 📄 License :* " + _0x420f0e + "\n*├ 👨‍🔧 Repostory :* " + _0x23b7f4 + "\n*├ 🔗 Url :* " + _0x46a501 + "\n*└──────────────────*";
+    let _0x355f11 = "\n*`🔍 DARK-KNIGHT MD NPM SEARCH`*\n\n*┌──────────────────*\n*├ 🏷️ Npm name :* " + _0x2b7f08 + "\n*├ 🪄 Description :* " + _0x2001c4 + "\n*├ ⏩ latest version :* " + _0xdb7312 + "\n*├ 📄 License :* " + _0x420f0e + "\n*├ 👨‍🔧 Repostory :* " + _0x23b7f4 + "\n*├ 🔗 Url :* " + _0x46a501 + "\n*└──────────────────*";
     await _0xbd44d.sendMessage(_0x12171a, {
       'text': _0x355f11
     }, {
@@ -595,7 +595,7 @@ cmd({
 cmd({
   'pattern': 'ss',
   'alias': ["webss"],
-  'react': '💡',
+  'react': '🖼️',
   'desc': "web screenshot",
   'category': "convert",
   'use': ".ss <query>",
