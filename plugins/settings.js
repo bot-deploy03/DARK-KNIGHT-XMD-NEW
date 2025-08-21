@@ -259,7 +259,7 @@ cmd({
       'text': "*`🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️`*",
       'footer': config.FOOTER,
       'title': '',
-      'buttonText': "*🔢 Reply below number*/n",
+      'buttonText': "*🔢 Reply below number*",
       'sections': _0xfd8daf
     };
     const _0x178ed1 = {
