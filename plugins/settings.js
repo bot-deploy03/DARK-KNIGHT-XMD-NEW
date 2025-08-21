@@ -256,10 +256,10 @@ cmd({
       }]
     }];
     const _0x3106fe = {
-      'text': "*_🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️_*\n\n",
+      'text': "*`🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️`*",
       'footer': config.FOOTER,
       'title': '',
-      'buttonText': "*🔢 Reply below number*",
+      'buttonText': "*🔢 Reply below number*/n",
       'sections': _0xfd8daf
     };
     const _0x178ed1 = {
@@ -393,9 +393,9 @@ cmd({
     if (config.BUTTON === 'true') {
       return await _0x39adca.sendMessage(_0x2f49c6, {
         'image': {
-          'url': config.LOGO
+          'url': "https://files.catbox.moe/brlkte.jpg"
         },
-        'caption': "*_🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️_*",
+        'caption': "*`🛠️ DARK-KNIGHT MD SETTINGS INFO ⚒️`*",
         'footer': config.FOOTER,
         'buttons': [{
           'buttonId': "Video quality list",
@@ -1208,7 +1208,7 @@ cmd({
     if (!_0x27dbd5 && !_0xefc4aa) {
       return await _0x4d4073("*OWNER COMMAND ⛔*");
     }
-    let _0x372a41 = "*`↔️ DARK-KNIGHT MD CHANGE DATABASE INFO ↔️`*\n\n*┌──────────────────┐*\n*├ 🗃️Input :* " + _0x171729 + "\n*└──────────────────┘*";
+    let _0x372a41 = "*`🔄 DARK-KNIGHT MD CHANGE DATABASE INFO 🔄`*\n\n*┌────────────────┐*\n*├ 🗃️Input :* " + _0x171729 + "\n*└────────────────┘*";
     const _0x2bb4a2 = [{
       'buttonId': _0x2142f5 + "setprefix " + _0x171729,
       'buttonText': {
