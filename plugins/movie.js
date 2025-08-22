@@ -45,9 +45,9 @@ cmd({
   'pattern': "sinhalasub",
   'react': '🔎',
   'category': "movie",
-  'alias': ["sinhalasub"],
+  'alias': ["sb"],
   'desc': "sinhalasub.lk movie search",
-  'use': ".sinhalasub 2025",
+  'use': ".sinhalasub new",
   'filename': __filename
 }, async (_0x4b12a6, _0x370112, _0x4c168d, {
   from: _0x38cc7c,
@@ -70,7 +70,7 @@ cmd({
         }
       });
       return await _0x4b12a6.sendMessage(_0x38cc7c, {
-        'text': "*`You are not a premium user⚠️`*\n\n*Send a message to one of the 2 numbers below and buy Lifetime premium 🎉.*\n\n_Price : 200 LKR ✔️_\n\n*👨‍💻Contact us : 0778500326 , 0722617699*"
+        'text': "*`You are not a premium user⚠️`*"
       }, {
         'quoted': _0x4c168d
       });
@@ -83,7 +83,7 @@ cmd({
         }
       });
       return await _0x4b12a6.sendMessage(_0x38cc7c, {
-        'text': "*This command currently only works for the Bot owner. To disable it for others, use the .settings command 👨‍🔧.*"
+        'text': "*This command currently only works for the Bot owner.*"
       }, {
         'quoted': _0x4c168d
       });
@@ -121,7 +121,7 @@ cmd({
       'text': "_*SINHALASUB MOVIE SEARCH RESULTS 🎬*_\n\n*`Input :`* " + _0x99fa36,
       'footer': config.FOOTER,
       'title': "cinesubz.co results 🎬",
-      'buttonText': "*Reply Below Number 🔢*",
+      'buttonText': "*🔢 Reply Below Number*",
       'sections': _0x1b240e
     };
     const _0x14b817 = "_*SINHALASUB MOVIE SEARCH RESULTS 🎬*_\n\n*`Input :`* " + _0x99fa36;
@@ -133,7 +133,7 @@ cmd({
       };
     });
     const _0x2f0e79 = {
-      'title': "Choose a Movie :)",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Available Links",
         'rows': _0x1da1ae
@@ -142,7 +142,7 @@ cmd({
     if (config.BUTTON === "true") {
       await _0x4b12a6.sendMessage(_0x38cc7c, {
         'image': {
-          'url': config.LOGO
+          'url': "https://files.catbox.moe/brlkte.jpg"
         },
         'caption': _0x14b817,
         'footer': config.FOOTER,
@@ -210,7 +210,7 @@ cmd({
     let _0x3b2ce2 = await sinhalasub_info(_0x3c4b09);
     if (!_0x3c4b09 || !_0x3c4b09.includes("https://sinhalasub.lk/movies/")) {
       console.log("Invalid input:", _0x3c4b09);
-      return await _0x215411("*❗ This is a TV series, please use .tv command.*");
+      return await _0x215411("*❗ This is a TV series, please use .sinhalasubtv command.*");
     }
     if (_0x3b2ce2.length < 0x1) {
       return await _0x82ee28.sendMessage(_0x2b7b02, {
@@ -223,13 +223,13 @@ cmd({
     _0x441ab6.push({
       'buttonId': _0x142583 + "daqt " + _0x3c4b09,
       'buttonText': {
-        'displayText': "Send Details 💡"
+        'displayText': "Send Details 📄"
       },
       'type': 0x1
     }, {
       'buttonId': _0x142583 + "ch " + _0x3c4b09,
       'buttonText': {
-        'displayText': "Send Images 💡\n"
+        'displayText': "Send Images 🖼️\n"
       },
       'type': 0x1
     });
@@ -260,7 +260,7 @@ cmd({
       };
     });
     const _0x22b798 = {
-      'title': "🎬 Choose a download link :)",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Available Links",
         'rows': _0x2636a5
@@ -450,7 +450,7 @@ cmd({
         }
       });
       return await _0xe0f122.sendMessage(_0x23dbc5, {
-        'text': "*`You are not a premium user⚠️`*\n\n*Send a message to one of the 2 numbers below and buy Lifetime premium 🎉.*\n\n_Price : 200 LKR ✔️_\n\n*👨‍💻Contact us : 0778500326 , 0722617699*"
+        'text': "*`You are not a premium user⚠️`*"
       }, {
         'quoted': _0x3dfaed
       });
@@ -463,7 +463,7 @@ cmd({
         }
       });
       return await _0xe0f122.sendMessage(_0x23dbc5, {
-        'text': "*This command currently only works for the Bot owner. To disable it for others, use the .settings command 👨‍🔧.*"
+        'text': "*This command currently only works for the Bot owner.*"
       }, {
         'quoted': _0x3dfaed
       });
@@ -501,7 +501,7 @@ cmd({
       'text': "*_SINHALASUB TV SEARCH RESULTS 📺_*\n\n*`Input :`* " + _0x1244ca,
       'footer': config.FOOTER,
       'title': "sinhalasub.lk results 🎬",
-      'buttonText': "*Reply Below Number 🔢*",
+      'buttonText': "*🔢 Reply Below Number*",
       'sections': _0x52610a
     };
     const _0x16754c = "*_SINHALASUB TV SEARCH RESULTS 📺_*\n\n*`Input :`* " + _0x1244ca;
@@ -513,7 +513,7 @@ cmd({
       };
     });
     const _0x4ddbdf = {
-      'title': "Choose a Movie :)",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Available Links",
         'rows': _0x250eac
@@ -522,7 +522,7 @@ cmd({
     if (config.BUTTON === "true") {
       await _0xe0f122.sendMessage(_0x23dbc5, {
         'image': {
-          'url': config.LOGO
+          'url': "https://files.catbox.moe/brlkte.jpg"
         },
         'caption': _0x16754c,
         'footer': config.FOOTER,
@@ -589,7 +589,7 @@ cmd({
     }
     if (!_0x1fd2e6 || !_0x1fd2e6.includes("https://sinhalasub.lk/tvshows/")) {
       console.log("Invalid input:", _0x1fd2e6);
-      return await _0x336786("*❗ This is a movie, please use .mv command.*");
+      return await _0x336786("*❗ This is a movie, please use .sinhalasub command.*");
     }
     let _0x2f3881 = await sinhalasubtv_info(_0x1fd2e6);
     var _0x5d59b6 = [];
@@ -710,19 +710,19 @@ cmd({
       'rows': _0xb02578
     }];
     const _0x5745f8 = {
-      'text': "*🍟 Epishodes title :* _*" + _0x3259c4.result.title + '*_',
+      'text': "*📄 Epishodes title :* _*" + _0x3259c4.result.title + '*_',
       'footer': config.FOOTER,
       'title': "_[cinesubz.co results 🎬]_",
-      'buttonText': "*Reply below number 🔢*",
+      'buttonText': "*🔢 Reply below number*",
       'sections': _0x1411e4
     };
-    const _0x36d877 = "*🍟 Epishodes title :* _*" + _0x3259c4.result.title + '*_';
+    const _0x36d877 = "*📄 Epishodes title :* _*" + _0x3259c4.result.title + '*_';
     if (config.BUTTON === "true") {
       return await _0x2a4bcd.sendMessage(_0x1f897b, {
         'text': _0x36d877,
         'footer': config.FOOTER,
         'title': '',
-        'buttonText': "📺 Select a quality",
+        'buttonText': "🎥 Select a quality",
         'sections': _0x1411e4
       }, {
         'quoted': _0x4dbedd
