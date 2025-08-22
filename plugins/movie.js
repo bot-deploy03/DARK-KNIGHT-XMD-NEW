@@ -1,4 +1,46 @@
-
+const config = require("../config");
+const {
+  cmd,
+  commands
+} = require("../command");
+const axios = require("axios");
+const sharp = require('sharp');
+const Seedr = require("seedr");
+const {
+  scrapercine,
+  getDownloadLink
+} = require("../lib/yts");
+const {
+  getBuffer,
+  getGroupAdmins,
+  getRandom,
+  h2k,
+  isUrl,
+  Json,
+  runtime,
+  sleep,
+  fetchJson
+} = require("../lib/functions");
+const fetch = (..._0x597555) => import("node-fetch").then(({
+  default: _0x48aff4
+}) => _0x48aff4(..._0x597555));
+const {
+  Buffer
+} = require("buffer");
+const download = require("../lib/yts");
+const {
+  sinhalasub_search,
+  sinhalasub_info,
+  sinhalasub_dl
+} = require('../lib/sinhalasubli');
+const {
+  sinhalasubb_search,
+  sinhalasubtv_info,
+  sinhalasubtv_dl
+} = require("../lib/sinhalasubtv");
+const {
+  sizeFormatter
+} = require("human-readable");
 cmd({
   'pattern': "sinhalasub",
   'react': '🔎',
