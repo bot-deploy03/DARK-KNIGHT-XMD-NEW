@@ -147,7 +147,7 @@ cmd({
       return await _0x48f9de("*Please give me googledrive url !!*");
     }
     let _0x252606 = await GDriveDl(_0x4f50da);
-    let _0xd40659 = "*`🗃️ VISPER GDRIVE DOWNLODER 🗃️`*\n\n*┌──────────────────*\n*├ 🗃️ Name :* " + _0x252606.fileName + "\n*├ ⏩ Type :* " + _0x252606.fileSize + "\n*├ 📁 Size :* " + _0x252606.mimetype + "\n*└──────────────────*";
+    let _0xd40659 = "*`🗃️ DARK-KNIGHT MD GDRIVE DOWNLODER 🗃️`*\n\n*┌────────────────*\n*├ 🗃️ Name :* " + _0x252606.fileName + "\n*├ ⏩ Type :* " + _0x252606.fileSize + "\n*├ 📁 Size :* " + _0x252606.mimetype + "\n*└────────────────*";
     await _0x48f9de(_0xd40659);
     _0xe91fdc.sendMessage(_0x1c3fcd, {
       'document': {
@@ -165,7 +165,7 @@ cmd({
 });
 cmd({
   'pattern': 'mega',
-  'react': '🍟',
+  'react': '📄',
   'alias': ["megadl", "meganz"],
   'desc': "Mega.nz files download",
   'category': 'download',
@@ -319,7 +319,7 @@ cmd({
     const _0x2b2783 = await yts(_0x408e94);
     const _0x50b0e3 = _0x2b2783.videos[0x0];
     const _0x1f2f20 = config.FOOTER;
-    let _0xc24ba = "*🎶 VISPER SONG DOWNLODER 🎶*\n\n*┌─────────────────────┐*\n*├ 🎶 Title : " + _0x50b0e3.title + "* \n*├ 🐼 Views : " + _0x50b0e3.views + "*\n*├ ⌛ Duration : " + _0x50b0e3.duration + "*\n*├ 📎 URL : " + _0x50b0e3.url + "*\n*└─────────────────────┘*";
+    let _0xc24ba = "*🎶 DARK-KNIGHT MD SONG DOWNLODER 🎶*\n\n*┌─────────────────────┐*\n*├ 🎶 Title : " + _0x50b0e3.title + "* \n*├ 🐼 Views : " + _0x50b0e3.views + "*\n*├ ⌛ Duration : " + _0x50b0e3.duration + "*\n*├ 📎 URL : " + _0x50b0e3.url + "*\n*└─────────────────────┘*";
     const _0x216331 = [{
       'buttonId': _0x2723d0 + "ytaa " + _0x50b0e3.url,
       'buttonText': {
@@ -343,7 +343,7 @@ cmd({
       'headerType': 0x4
     };
     const _0xc6e234 = {
-      'title': "🎵 Choose an audio format",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Audio Formats 🎶",
         'rows': [{
@@ -433,7 +433,7 @@ cmd({
     const _0x5a058d = await yts(_0x5db991);
     const _0x4c416d = _0x5a058d.videos[0x0];
     const _0xcebc53 = config.FOOTER;
-    let _0x56ea4f = "🎶 *VISPER SONG DOWNLOADER* 🎶\n\n┌────────────────────┐\n│ 🎵 *Title:* " + _0x4c416d.title + "\n│ 👁️ *Views:* " + _0x4c416d.views + "\n│ ⏱️ *Duration:* " + _0x4c416d.duration + "\n│ 🔗 *URL:* " + _0x4c416d.url + "\n└────────────────────┘";
+    let _0x56ea4f = "🎶 *DARK-KNIGHT MD SONG DOWNLOADER* 🎶\n\n┌────────────────────┐\n│ 🎵 *Title:* " + _0x4c416d.title + "\n│ 👁️ *Views:* " + _0x4c416d.views + "\n│ ⏱️ *Duration:* " + _0x4c416d.duration + "\n│ 🔗 *URL:* " + _0x4c416d.url + "\n└────────────────────┘";
     await _0x13555f.sendMessage(_0x20ce62, {
       'image': {
         'url': _0x4c416d.thumbnail
@@ -691,7 +691,7 @@ cmd({
       return await _0x366254("valid_url");
     }
     const _0x3bb64f = await fetchJson("https://darksadasyt-tiktokdl.vercel.app/api/tiktok?q=" + _0x245190);
-    let _0x540355 = "*`🪺 VISPER TIK TOK DOWNLODER 🪺`*\n\n*┌──────────────────*\n*├ 🎩 Title :* " + _0x3bb64f.title + "\n*├ 🎃 Region :* " + _0x3bb64f.regions + "\n*├ ⏰ Duration :* " + _0x3bb64f.runtime + "\n*├ 🔗 Url:* " + _0x245190 + "\n*└──────────────────*\n";
+    let _0x540355 = "*`🪺 DARK-KNIGHT MD TIK TOK DOWNLODER 🪺`*\n\n*┌──────────────────*\n*├ 🎩 Title :* " + _0x3bb64f.title + "\n*├ 🎃 Region :* " + _0x3bb64f.regions + "\n*├ ⏰ Duration :* " + _0x3bb64f.runtime + "\n*├ 🔗 Url:* " + _0x245190 + "\n*└──────────────────*\n";
     const _0x17cdc8 = [{
       'buttonId': _0x599c19 + "ttdl1 " + _0x3bb64f.no_watermark,
       'buttonText': {
@@ -721,7 +721,7 @@ cmd({
       'headerType': 0x4
     };
     const _0x43d3c9 = {
-      'title': "❯❯ Choose a video Format ❮❮",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Tiktok Video Type 📽️",
         'rows': [{
@@ -1038,7 +1038,7 @@ cmd({
       _0xaf4c37 = 'https://images.weserv.nl/?url=' + encodeURIComponent(_0xaf4c37.replace(/^https?:\/\//, ''));
     }
     const _0x15d799 = _0x405200.result.duration || "Unknown";
-    const _0x572edb = "*🏮 VISPER FB DOWNLOADER 🏮*\n\n*┌──────────────────*\n*├ 🐼 Title:* Facebook video\n" + ("*├ ⏱️ Duration:* " + _0x15d799 + "\n") + ("*├ 🔗 Url:* " + _0x13cd1c + "\n") + "*└──────────────────*";
+    const _0x572edb = "*🏮 DARK-KNIGHT MD FB DOWNLOADER 🏮*\n\n*┌──────────────────*\n*├ 🐼 Title:* Facebook video\n" + ("*├ ⏱️ Duration:* " + _0x15d799 + "\n") + ("*├ 🔗 Url:* " + _0x13cd1c + "\n") + "*└──────────────────*";
     const _0x2ab787 = [];
     if (_0x5e13b5[0x0]?.["url"]) {
       _0x2ab787.push({
@@ -1071,7 +1071,7 @@ cmd({
       'headerType': 0x4
     };
     const _0x20e7db = {
-      'title': "❯❯ Choose a video Format ❮❮",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Facebook Video Type 📽️",
         'rows': [{
@@ -1471,7 +1471,7 @@ cmd({
       });
     }
     const _0x43eb30 = await apkdl.download(_0x4ad3c6);
-    let _0x231153 = "*`🗃️ VISPER APK DOWNLODER 🗃️`*\n\n*┌──────────────────╮*\n*├ 📚 Name :* " + _0x43eb30.name + "\n*├ 📦 Developer :* " + _0x43eb30["package"] + "\n*├ ⬆️ Last update :* " + _0x43eb30.lastup + "\n*├ 📥 Size :* " + _0x43eb30.size + "\n*└──────────────────╯*";
+    let _0x231153 = "*`🗃️ DARK-KNIGHT MD APK DOWNLODER 🗃️`*\n\n*┌──────────────────╮*\n*├ 📚 Name :* " + _0x43eb30.name + "\n*├ 📦 Developer :* " + _0x43eb30["package"] + "\n*├ ⬆️ Last update :* " + _0x43eb30.lastup + "\n*├ 📥 Size :* " + _0x43eb30.size + "\n*└──────────────────╯*";
     await _0x271dfe.sendMessage(_0x5b01f9, {
       'image': {
         'url': _0x43eb30.icon
@@ -1548,7 +1548,7 @@ cmd({
     const _0x3f8f46 = _0x2aac79.replace(/\?si=[^&]*/, '');
     var _0x26a664 = await yts(_0x3f8f46);
     var _0x40d212 = _0x26a664.videos[0x0];
-    let _0x1cf846 = "*📹 VISPER VIDEO DOWNLODER 📹*\n\n*┌─────────────────────┐*\n*├ 📹 Title : " + _0x40d212.title + "* \n*├ 🐼 Views : " + _0x40d212.views + "*\n*├ ⌛Duration : " + _0x40d212.duration + "*\n*├ 📎 URL : " + _0x40d212.url + "*\n*└─────────────────────┘*";
+    let _0x1cf846 = "*📹 DARK-KNIGHT MD VIDEO DOWNLODER 📹*\n\n*┌─────────────────────┐*\n*├ 📹 Title : " + _0x40d212.title + "* \n*├ 🐼 Views : " + _0x40d212.views + "*\n*├ ⌛Duration : " + _0x40d212.duration + "*\n*├ 📎 URL : " + _0x40d212.url + "*\n*└─────────────────────┘*";
     const _0x192320 = [{
       'title': "`Video type 📽️`",
       'rows': [{
@@ -1597,7 +1597,7 @@ cmd({
       'sections': _0x192320
     };
     const _0x2d80fe = {
-      'title': "❯❯ Choose a video quality ❮❮",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "Video Type 📽️",
         'rows': [{
@@ -2170,7 +2170,7 @@ cmd({
       });
     }
     const _0x53caa6 = await fetchJson("https://mfire-dl.vercel.app/mfire?url=" + _0x4bd374);
-    let _0x312b64 = "*`🔥 VISPER MEDIAFIRE DOWNLODER 🔥`*\n\n*┌──────────────────╮*\n*├ 🔥 Name :* " + _0x53caa6.fileName + "\n*├ ⏩ Type :* " + _0x53caa6.fileType + "\n*├ 📁 Size :* " + _0x53caa6.size + "\n*├ 📅 Date :* " + _0x53caa6.date + "\n*└──────────────────╯*";
+    let _0x312b64 = "*`🔥 DARK-KNIGHT MD MEDIAFIRE DOWNLODER 🔥`*\n\n*┌──────────────────╮*\n*├ 🔥 Name :* " + _0x53caa6.fileName + "\n*├ ⏩ Type :* " + _0x53caa6.fileType + "\n*├ 📁 Size :* " + _0x53caa6.size + "\n*├ 📅 Date :* " + _0x53caa6.date + "\n*└──────────────────╯*";
     _0x3e0d38(_0x312b64);
     let _0x5110b4 = await _0xa7984d.sendMessage(_0x5412f2, {
       'document': {
@@ -2266,7 +2266,7 @@ cmd({
         }
       });
       return await _0x360d47.sendMessage(_0x2a90a3, {
-        'text': "*This command currently only works for the Bot owner. To disable it for others, use the .settings command 👨‍🔧.*"
+        'text': "*This command currently only works for the Bot owner.*"
       }, {
         'quoted': _0x36ff8f
       });
@@ -2296,7 +2296,7 @@ cmd({
     };
     const _0x2f22b3 = "*_XNXX SEARCH RESULT 🔞_*\n\n*`Input :`* " + _0x37c939;
     const _0x28e350 = {
-      'title': "🔞 XNXX Search Results",
+      'title': "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
       'sections': [{
         'title': "🔍 Search Results",
         'rows': _0x166f00.result.map(_0x5ab5d9 => ({
@@ -2309,7 +2309,7 @@ cmd({
     if (config.BUTTON === "true") {
       return await _0x360d47.sendMessage(_0x2a90a3, {
         'image': {
-          'url': config.LOGO
+          'url': "https://files.catbox.moe/brlkte.jpg"
         },
         'caption': _0x2f22b3,
         'footer': config.FOOTER,
@@ -2437,155 +2437,6 @@ cmd({
   }
 });
 cmd({
-  'pattern': "pornhub",
-  'react': '🔎',
-  'category': "download",
-  'desc': "xnxx download",
-  'use': ".xnxx new",
-  'filename': __filename
-}, async (_0x204094, _0x360f67, _0x2aab19, {
-  from: _0x7aa44e,
-  q: _0x19367e,
-  isSudo: _0x26e08b,
-  isOwner: _0x3f4499,
-  prefix: _0x17054f,
-  isMe: _0x36bda3,
-  reply: _0x38ed9e
-}) => {
-  try {
-    if (config.XNXX_BLOCK == 'true' && !_0x36bda3 && !_0x26e08b && !_0x3f4499) {
-      await _0x204094.sendMessage(_0x7aa44e, {
-        'react': {
-          'text': '❌',
-          'key': _0x2aab19.key
-        }
-      });
-      return await _0x204094.sendMessage(_0x7aa44e, {
-        'text': "*This command currently only works for the Bot owner. To disable it for others, use the .settings command 👨‍🔧.*"
-      }, {
-        'quoted': _0x2aab19
-      });
-    }
-    if (!_0x19367e) {
-      return _0x38ed9e("🚩 *Please give me words to search*");
-    }
-    let _0x54122c = await phsearch(_0x19367e);
-    var _0x2185f8 = [];
-    for (var _0xb24003 = 0x0; _0xb24003 < _0x54122c.length; _0xb24003++) {
-      _0x2185f8.push({
-        'title': _0x54122c[_0xb24003].title,
-        'description': '',
-        'rowId': _0x17054f + ("phinfo " + _0x54122c[_0xb24003].link + '}')
-      });
-    }
-    const _0x18287c = [{
-      'title': "pornhub.com results",
-      'rows': _0x2185f8
-    }];
-    const _0x329791 = {
-      'text': "*_PORNHUB SEARCH RESULT 🔞_*\n\n*`Input :`* " + _0x19367e,
-      'footer': config.FOOTER,
-      'title': "pornhub.com results",
-      'buttonText': "*Reply Below Number 🔢*",
-      'sections': _0x18287c
-    };
-    await _0x204094.listMessage(_0x7aa44e, _0x329791, _0x2aab19);
-  } catch (_0x2719d2) {
-    console.log(_0x2719d2);
-    await _0x204094.sendMessage(_0x7aa44e, {
-      'text': "🚩 *Error !!*"
-    }, {
-      'quoted': _0x2aab19
-    });
-  }
-});
-cmd({
-  'pattern': "phinfo",
-  'react': '🔞',
-  'filename': __filename
-}, async (_0x21ede5, _0x1985df, _0xe70612, {
-  from: _0x37d748,
-  q: _0x1325a8,
-  isMe: _0xe50592,
-  prefix: _0x187a09,
-  reply: _0x105242
-}) => {
-  try {
-    let _0x44f6f5 = await fetchJson("https://ph-slow-dl.vercel.app/api/analyze?q=" + _0x1325a8);
-    let _0x35e7bb = "*`🔞 VISPER PORNHUB DOWNLOADER 🔞`*\n\n*┌──────────────────*\n*├ ❄️ Title :* " + _0x44f6f5.video_title + "\n*├ ⏱️ Time :* " + _0x44f6f5.analyze_time + "\n*├ 🧐 Uploder :* " + _0x44f6f5.video_uploader + "\n*├ 🔗 Url :* " + _0x1325a8 + "\n*└──────────────────*";
-    var _0x156a34 = [];
-    _0x44f6f5.format.map(_0x5a9ce7 => {
-      _0x156a34.push({
-        'buttonId': _0x187a09 + ("phdl " + _0x44f6f5.video_cover + '±' + _0x5a9ce7.download_url + '±' + _0x44f6f5.video_title),
-        'buttonText': {
-          'displayText': '' + _0x5a9ce7.resolution
-        },
-        'type': 0x1
-      });
-    });
-    const _0x198fd4 = {
-      'image': {
-        'url': _0x44f6f5.video_cover
-      },
-      'caption': _0x35e7bb,
-      'footer': config.FOOTER,
-      'buttons': _0x156a34,
-      'headerType': 0x4
-    };
-    return await _0x21ede5.buttonMessage(_0x37d748, _0x198fd4, _0xe70612);
-  } catch (_0x210db5) {
-    console.log(_0x210db5);
-    await _0x21ede5.sendMessage(_0x37d748, {
-      'text': "🚩 *Error !!*"
-    }, {
-      'quoted': _0xe70612
-    });
-  }
-});
-cmd({
-  'pattern': "phdl",
-  'react': '⬇️',
-  'dontAddCommandList': true,
-  'filename': __filename
-}, async (_0x39a59c, _0x38f380, _0x4f4ca0, {
-  from: _0x10ca4a,
-  q: _0x269b80,
-  reply: _0x4b03fb
-}) => {
-  try {
-    if (!_0x269b80) {
-      return await _0x4b03fb("*Need a youtube url!*");
-    }
-    const _0x5ea9b5 = _0x269b80.split('±')[0x1];
-    const _0x316599 = _0x269b80.split('±')[0x2];
-    await _0x39a59c.sendMessage(_0x10ca4a, {
-      'react': {
-        'text': '⬆️',
-        'key': _0x38f380.key
-      }
-    });
-    await _0x39a59c.sendMessage(_0x10ca4a, {
-      'document': {
-        'url': _0x5ea9b5
-      },
-      'caption': config.FOOTER,
-      'mimetype': "video/mp4",
-      'caption': wm,
-      'fileName': '' + _0x316599
-    }, {
-      'quoted': _0x38f380
-    });
-    await _0x39a59c.sendMessage(_0x10ca4a, {
-      'react': {
-        'text': '✔️',
-        'key': _0x38f380.key
-      }
-    });
-  } catch (_0x4df466) {
-    console.log(_0x4df466);
-  }
-});
-cmd({
   'pattern': "automp3",
   'react': '🎵',
   'dontAddCommandList': true,
@@ -2607,7 +2458,7 @@ cmd({
     await _0x3cb07b("🎶 Search complete. Found " + _0x4557eb.length + " songs. Sending the first now. Others will follow every 40 seconds.");
     let _0x5c1cde = true;
     for (const _0x20b1e5 of _0x4557eb) {
-      const _0x567217 = "🎵 *Now Playing:* " + _0x20b1e5.title + "\n👁️ *Views:* " + _0x20b1e5.views + "\n⏱️ *Duration:* " + _0x20b1e5.duration + "\n\n_🎧 Powered by VISPER Music_";
+      const _0x567217 = "🎵 *Now Playing:* " + _0x20b1e5.title + "\n👁️ *Views:* " + _0x20b1e5.views + "\n⏱️ *Duration:* " + _0x20b1e5.duration + "\n\n_🎧 Powered by DARK-KNIGHT MD Music_";
       try {
         const _0x135dbe = await (await fetch(_0x20b1e5.thumbnail)).buffer();
         await safeSend(_0x45f868, _0x447a92, {
