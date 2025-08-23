@@ -300,7 +300,7 @@ cmd({
       'contacts': {
         'displayName': "Bot Owners",
         'contacts': [{
-          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Themi Sadas\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94778500326:+94763934860\nEND:VCARD"
+          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Dark Knight\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94763934860:+94763934860\nEND:VCARD"
         }]
       }
     }, {
