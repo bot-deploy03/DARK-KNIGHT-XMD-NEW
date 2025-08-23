@@ -1,9 +1,9 @@
 {
-  "name": "VISPER-MD",
+  "name": "DARK-MD",
   "version": "2.0.0",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Visper",
-    "stop": "pm2 stop Visper",
+    "start": "pm2 start index.js --deep-monitoring --attach --name DARK-MD",
+    "stop": "pm2 stop DARK-MD",
     "restart": "git pull && npm stop && npm start",
     "stash": "git stash && git stash drop"
   },
