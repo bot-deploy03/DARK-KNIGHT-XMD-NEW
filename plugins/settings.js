@@ -1234,18 +1234,6 @@ cmd({
       },
       'type': 0x1
     }, {
-      'buttonId': _0x2142f5 + "setmail " + _0x171729,
-      'buttonText': {
-        'displayText': "_*Add seedr account mail*_"
-      },
-      'type': 0x1
-    }, {
-      'buttonId': _0x2142f5 + "setpassword " + _0x171729,
-      'buttonText': {
-        'displayText': "_*Add seedr account password*_"
-      },
-      'type': 0x1
-    }, {
       'buttonId': _0x2142f5 + "asetsudo " + _0x171729,
       'buttonText': {
         'displayText': "_*Change bot sudo numbers*_"
@@ -1300,14 +1288,6 @@ cmd({
             'title': "Change bot movie footer",
             'description': '',
             'id': _0x2142f5 + "setmvfooter " + _0x171729
-          }, {
-            'title': "Add seedr account mail",
-            'description': '',
-            'id': _0x2142f5 + "setmail " + _0x171729
-          }, {
-            'title': "Add seedr account password",
-            'description': '',
-            'id': _0x2142f5 + "setpassword " + _0x171729
           }, {
             'title': "Change bot sudo numbers",
             'description': '',
@@ -2486,96 +2466,6 @@ cmd({
   } catch (_0x45d263) {
     _0x5831a5("*Error !!*");
     _0x840360(_0x45d263);
-  }
-});
-cmd({
-  'pattern': "setmail",
-  'dontAddCommandList': true,
-  'filename': __filename
-}, async (_0x2e6538, _0x5cafbb, _0x2da470, {
-  from: _0x153db3,
-  l: _0xc26c9c,
-  quoted: _0x19df31,
-  body: _0x11c476,
-  isCmd: _0x579ca9,
-  command: _0x257cad,
-  args: _0x43cb18,
-  q: _0x2f024b,
-  isSudo: _0x384c09,
-  isGroup: _0xf84d45,
-  sender: _0x56baae,
-  senderNumber: _0x162bb5,
-  botNumber2: _0x3e6131,
-  botNumber: _0x29fa0f,
-  pushname: _0x1b37bb,
-  isMe: _0x1bf8dc,
-  isOwner: _0x396ceb,
-  groupMetadata: _0x4486f8,
-  groupName: _0x96b5b1,
-  participants: _0xf64be4,
-  groupAdmins: _0x59a53e,
-  isBotAdmins: _0x1768c5,
-  isAdmins: _0x333cc6,
-  reply: _0x555c30
-}) => {
-  try {
-    if (!_0x1bf8dc && !_0x384c09) {
-      return await _0x555c30("*OWNER COMMAND ⛔*");
-    }
-    let _0x5e104b = await get("SEEDR_MAIL");
-    if (_0x5e104b === _0x2f024b) {
-      return;
-    }
-    await input("SEEDR_MAIL", _0x2f024b);
-    await _0x555c30("*Seedr account mail added sucssess full✅*");
-  } catch (_0x22d341) {
-    _0x555c30("*Error !!*");
-    _0xc26c9c(_0x22d341);
-  }
-});
-cmd({
-  'pattern': "setpassword",
-  'dontAddCommandList': true,
-  'filename': __filename
-}, async (_0x2caea9, _0x35b71f, _0x5ca341, {
-  from: _0x2801b0,
-  l: _0x21b354,
-  quoted: _0x293208,
-  body: _0x3685bf,
-  isCmd: _0x556491,
-  command: _0x37627a,
-  args: _0x27bbad,
-  q: _0x2978e0,
-  isSudo: _0x60701c,
-  isGroup: _0x14a9f5,
-  sender: _0x4207e8,
-  senderNumber: _0x2d2908,
-  botNumber2: _0xb6501f,
-  botNumber: _0x174272,
-  pushname: _0x4c5791,
-  isMe: _0x29fefe,
-  isOwner: _0x58139b,
-  groupMetadata: _0x31abcd,
-  groupName: _0x29e53f,
-  participants: _0x343abb,
-  groupAdmins: _0x155f1c,
-  isBotAdmins: _0x35ea87,
-  isAdmins: _0x2b47e2,
-  reply: _0x594dfe
-}) => {
-  try {
-    if (!_0x29fefe && !_0x60701c) {
-      return await _0x594dfe("*OWNER COMMAND ⛔*");
-    }
-    let _0x53a4d7 = await get('SEEDR_PASSWORD');
-    if (_0x53a4d7 === _0x2978e0) {
-      return;
-    }
-    await input("SEEDR_PASSWORD", _0x2978e0);
-    await _0x594dfe("*Seedr account password added sucssess full✅*");
-  } catch (_0x3eea65) {
-    _0x594dfe("*Error !!*");
-    _0x21b354(_0x3eea65);
   }
 });
 cmd({
