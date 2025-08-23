@@ -334,35 +334,6 @@ cmd({
   }
 });
 cmd({
-  'pattern': 'joinsupport',
-  'desc': "Join support group",
-  'react': "👨🏻‍💻",
-  'category': 'main',
-  'use': '.joinsupport'
-}, async (_0x59120a, _0x3fb90b, _0x1af637, {
-  from: _0x4af714,
-  reply: _0x6730ac,
-  isOwner: _0x3b6ae8,
-  isSachintha: _0x3ad3ce,
-  isSavi: _0x262a22,
-  isDev: _0x21606b,
-  isMani: _0xefba0c,
-  isMe: _0x35d2fb
-}) => {
-  if (!_0x3b6ae8 && !_0x3ad3ce && !_0x262a22 && !_0x21606b && !_0xefba0c && !_0x35d2fb) {
-    return;
-  }
-  try {
-    const _0x1772f6 = (await axios.get("https://mv-visper-full-db.pages.dev/Main/main_var.json")).data;
-    let _0x4dde26 = '' + _0x1772f6.supglink;
-    let _0x3c678b = _0x4dde26.split(" ")[0x0].split("https://chat.whatsapp.com/")[0x1];
-    await _0x59120a.groupAcceptInvite(_0x3c678b).then(() => _0x6730ac("✅ Successfully joined the support group!"))["catch"](() => _0x6730ac("❌ Could not join the group."));
-  } catch (_0x561efc) {
-    console.log(_0x561efc);
-    _0x6730ac("🚩 Error occurred while trying to join the group.");
-  }
-});
-cmd({
   'pattern': "restart",
   'react': '🔄',
   'desc': "Restart the bot process",
@@ -682,9 +653,7 @@ cmd({
       'contacts': {
         'displayName': "Bot Owners",
         'contacts': [{
-          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Themi Sadas\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94778500326:+94778500326\nEND:VCARD"
-        }, {
-          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Savithu Iduwara\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94722617699:+94722617699\nEND:VCARD"
+          'vcard': "BEGIN:VCARD\nVERSION:3.0\nFN: Themi Sadas\nORG: Web Developer;\nTEL;type=CELL;type=VOICE;waid=94778500326:+94763934860\nEND:VCARD"
         }]
       }
     }, {
@@ -867,7 +836,7 @@ cmd({
     const _0x4d5e75 = Math.round(_0x57f6c0.totalmem() / 0x400 / 0x400);
     const _0x27f051 = _0x4b4933 + " MB / " + _0x4d5e75 + " MB";
     const _0x1b3e30 = await runtime(process.uptime());
-    const _0x5d26dd = "\n*🏮 VISPER SYSTEM STATUS 🏮*\n\n`⏳ Uptime:`       *" + _0x1b3e30 + "*\n`💾 RAM Usage:`    *" + _0x27f051 + "*\n`🖥️ Platform:`     *" + _0x33d598 + "*\n`⚙️ Version:`      *3.0.1*\n\n";
+    const _0x5d26dd = "\n*🏮 DARK-KNIGHT MD SYSTEM STATUS 🏮*\n\n`⏳ Uptime:`       *" + _0x1b3e30 + "*\n`💾 RAM Usage:`    *" + _0x27f051 + "*\n`🖥️ Platform:`     *" + _0x33d598 + "*\n`⚙️ Version:`      *1.0.0*\n\n";
     await _0x580a29.sendMessage(_0x43c8b6.chat, {
       'text': _0x5d26dd.trim()
     }, {
@@ -1017,7 +986,7 @@ cmd({
 });
 cmd({
   'pattern': "download",
-  'react': '🍟',
+  'react': '🎥',
   'alias': ["fetch"],
   'desc': "Direct downloader from a link",
   'category': "movie",
@@ -1244,42 +1213,6 @@ async function fetchCodeWithRetry(_0x494965, _0x2e1669 = 0x1) {
     }
   }
 }
-cmd({
-  'pattern': "requestpair",
-  'alias': ["pair"],
-  'desc': "requestpair 94....",
-  'category': 'main',
-  'use': ".requestpair 94....",
-  'filename': __filename
-}, async (_0x2d5cb4, _0x419457, _0xa72190, {
-  reply: _0x79df3f,
-  isGroup: _0x241ff0,
-  q: _0xecc241,
-  from: _0xb0b26c
-}) => {
-  try {
-    if (_0x241ff0) {
-      return _0x79df3f("🚫 *This command not allowed for groups*");
-    }
-    const _0x2f2b29 = await fetchCodeWithRetry(_0xecc241, 0x1);
-    await _0x2d5cb4.sendMessage(_0xa72190.chat, {
-      'text': _0x2f2b29
-    }, {
-      'quoted': _0x419457
-    });
-    _0xa72190.react('🔢');
-    setTimeout(async () => {
-      await _0x2d5cb4.sendMessage(_0xa72190.chat, {
-        'text': "*Your code is expired ⌛*"
-      }, {
-        'quoted': _0x419457
-      });
-    }, 0x7530);
-  } catch (_0x5e682c) {
-    console.log("Final error after retry:", _0x5e682c);
-    await _0x79df3f("*Error !!*");
-  }
-});
 cmd({
   'pattern': "channelreact",
   'alias': ["chr"],
@@ -1762,7 +1695,7 @@ cmd({
 });
 cmd({
   'pattern': "download",
-  'react': '🍟',
+  'react': '🎥',
   'alias': ['fetchh'],
   'desc': "Direct downloader from a link (max 2GB, RAM safe)",
   'category': "movie",
