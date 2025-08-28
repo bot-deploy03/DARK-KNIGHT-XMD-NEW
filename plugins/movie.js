@@ -830,7 +830,7 @@ cmd({
     }
     let _0x1266b7 = await sinhalasubtv_info(_0x15c171);
     const _0x115e52 = (await axios.get("https://mv-visper-full-db.pages.dev/Main/main_var.json")).data;
-    const _0x491f2b = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x1266b7.result.title || 'N/A') + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x1266b7.result.date || 'N/A') + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x1266b7.result.imdb || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + _0x1266b7.result.director + "_\n\n> 🌟 Follow us : *" + _0x115e52.chlink + "*\n\n> _*VISPER MD MULTIDEVICE*_\n";
+    const _0x491f2b = "*☘️ 𝗧ɪᴛʟᴇ ➮* *_" + (_0x1266b7.result.title || 'N/A') + "_*\n\n*📅 𝗥ᴇʟᴇꜱᴇᴅ ᴅᴀᴛᴇ ➮* _" + (_0x1266b7.result.date || 'N/A') + "_\n*💃 𝗥ᴀᴛɪɴɢ ➮* _" + (_0x1266b7.result.imdb || "N/A") + "_\n*💁‍♂️ 𝗦ᴜʙᴛɪᴛʟᴇ ʙʏ ➮* _" + _0x1266b7.result.director + "_\n\n> 🌟 Follow us : *" + _0x115e52.chlink + "*\n\n> _*DARK-KNIGHT MD*_\n";
     await _0xd94a50.sendMessage(config.JID || _0x2170f6, {
       'image': {
         'url': _0x1266b7.result.image[0x0] || images
