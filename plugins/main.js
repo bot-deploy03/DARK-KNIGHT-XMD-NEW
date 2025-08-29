@@ -62,7 +62,7 @@ cmd({
     const _0x396413 = Math.round(os.totalmem() / 0x400 / 0x400);
     const _0x518e7e = _0xc1a722 + "MB / " + _0x396413 + 'MB';
     const _0x511bef = await runtime(process.uptime());
-    const _0x10d177 = "*Hello " + _0xe4daa9 + "👋*\n\n*🫟 I am DARK-KNIGHT MD Official WhatsApp Bot.*\n*I am alive now 👋*\n\n*Thank you for using DARK-KNIGHT MD !*\n\n*╭──❍ DARK-KNIGHT MD ❍──╮*\n\n*`⚒️ Prefix:` " + config.PREFIX + "*\n*`⏳ Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`🖥️ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94763934869*\n\n*╰──────────────╯*\n\n";
+    const _0x10d177 = "*Hello " + _0xe4daa9 + "👋*\n\n*🫟 I am DARK-KNIGHT MD Official WhatsApp Bot.*\n*I am alive now 👋*\n\n*Thank you for using DARK-KNIGHT MD !*\n\n*╭──❍ DARK-KNIGHT MD ❍──╮*\n\n*`⚒️ Prefix:` " + config.PREFIX + "*\n*`⏳ Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`🖥️ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94763934860*\n\n*╰──────────────╯*\n\n";
     const _0x4d4bd5 = "*Hello " + _0xe4daa9 + "👋*\n\n*🫟 I am DARK-KNIGHT MD Official WhatsApp Bot.*\n*I am alive now 👋*\n\n*Thank you for using DARK-KNIGHT MD !*\n\n*╭──❍ DARK-KNIGHT MD ❍──╮*\n\n*`⚒️ Prefix:` " + config.PREFIX + "*\n*`⏳ Uptime:`  " + _0x511bef + "*\n*`🚀 Memory Use:` " + _0x518e7e + "*\n*`🖥️ Platform:` " + _0x131f3b + "*\n*`👨🏻‍💻 Owner:` 94763934860*\n\n*╰──────────────╯*\n\n";
     let _0x2500e1;
     try {
