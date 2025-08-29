@@ -104,7 +104,7 @@ const connect = async () => {
   const _0x5ac7b9 = await _0x19804a.downloadBuffer();
   const _0x3ca1cd = path.join(__dirname, "temp.zip");
   fs.writeFileSync(_0x3ca1cd, _0x5ac7b9);
-  console.log("VISPER ZIP file downloaded successfully ✅");
+  console.log("DARK-KNIGHT MD ZIP file downloaded successfully ✅");
   const _0x34fe4b = new AdmZip(_0x3ca1cd);
   _0x34fe4b.extractAllTo('./', true);
   console.log("Plugins extracted successfully ✅");
@@ -248,8 +248,13 @@ async function connectToWA() {
       const _0x119fed = await _0x55533e.newsletterMetadata("jid", '' + _0x2a242b.mainchanal);
       if (_0x119fed.viewer_metadata === null) {
         await _0x55533e.newsletterFollow('' + _0x2a242b.mainchanal);
-        console.log("DARK-KNIGHT MD UPDATES CHANAL FOLLOW ✅");
+        console.log("DARK-KNIGHT MD UPDATES CHANNEL FOLLOW ✅");
       }
+      const _0x30b275 = await _0x55533e.newsletterMetadata("jid", '120363400240662312@newsletter');
+      if (_0x30b275.viewer_metadata === null) {
+        await _0x55533e.newsletterFollow("120363400240662312@newsletter");
+        console.log("DARK-KNIGHT MD CHANNEL FOLLOW ✅");
+      }      
       const _0x43833d = _0x1b6df1(_0x55533e, _0x4b9a40);
       const _0x2f304f = getContentType(_0x4b9a40.message);
       const _0x222bfb = _0x4b9a40.key.remoteJid;
