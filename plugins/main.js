@@ -28,6 +28,98 @@ const {
   URL
 } = require("url");
 cmd({
+  pattern: "menu",
+  react: '📁',
+  alias: ["allmenu", "alllist"],
+  desc: "Get bot's menu.",
+  category: "main",
+  use: ".menu",
+  filename: __filename
+}, async (conn, mek, m, { from, pushname, prefix, reply, l }) => {
+  try {
+    // Platform detect
+    let platform;
+    const len = os.hostname().length;
+    if (len === 12) platform = "Replit";
+    else if (len === 36) platform = "Heroku";
+    else if (len === 8) platform = "Koyeb";
+    else platform = os.hostname();
+
+    // Memory + uptime
+    const used = (process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2);
+    const total = Math.round(os.totalmem() / 1024 / 1024);
+    const memory = `${used}MB / ${total}MB`;
+    const uptime = await runtime(process.uptime());
+
+    // Alive message
+    const caption = `*Hello ${pushname} 👋*
+
+*🫟 I am DARK-KNIGHT MD Official WhatsApp Bot.*
+
+*Thank you for using DARK-KNIGHT MD !*
+
+*╭──❍ MAIN MENU ❍──╮*
+*`⚒️ Prefix:`* ${config.PREFIX}
+*`⏳ Uptime:`* ${uptime}
+*`🚀 Memory Use:`* ${memory}
+*`🖥️ Platform:`* ${platform}
+*`👨🏻‍💻 Owner:`* 94763934860
+*╰──────────────╯*`;
+
+    // Load logo
+    let logo;
+    try {
+      if (!config.LOGO || !config.LOGO.startsWith("http")) throw new Error("Invalid LOGO URL");
+      const res = await axios.get(config.LOGO, { responseType: "arraybuffer" });
+      logo = Buffer.from(res.data, "binary");
+    } catch (e) {
+      return reply("⚠️ Could not load menu image. Check your LOGO URL.");
+    }
+
+    // Buttons
+    const buttons = [
+      { buttonId: prefix + "ping", buttonText: { displayText: "BOT PING" }, type: 1 },
+      { buttonId: prefix + "system", buttonText: { displayText: "BOT SYSTEM" }, type: 1 },
+      { buttonId: prefix + "alive", buttonText: { displayText: "MAIN ALIVE" }, type: 1 }
+    ];
+
+    if (config.BUTTON === "true") {
+      // List (native flow)
+      const list = {
+        title: "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⎙",
+        sections: [{
+          title: "DARK-KNIGHT MD",
+          rows: [
+            { title: "MAIN PING", description: "bot speed", id: prefix + "ping" },
+            { title: "MAIN SYSTEM", description: "bot system", id: prefix + "system" },
+            { title: "MAIN ALIVE", description: "main alive", id: prefix + "alive" }
+          ]
+        }]
+      };
+      return await conn.sendMessage(from, {
+        image: logo,
+        caption,
+        footer: config.FOOTER,
+        buttons: [{
+          buttonId: "action",
+          buttonText: { displayText: "🔽 Select Option" },
+          type: 4,
+          nativeFlowInfo: { name: "single_select", paramsJson: JSON.stringify(list) }
+        }],
+        headerType: 1,
+        viewOnce: true
+      }, { quoted: mek });
+    }
+
+    // Normal buttons
+    await conn.sendMessage(from, { image: logo, caption, footer: config.FOOTER, buttons, headerType: 4 }, { quoted: mek });
+
+  } catch (err) {
+    reply("❌ Error occurred!");
+    l(err);
+  }
+});
+cmd({
   'pattern': "alive",
   'react': '📁',
   'alias': ["online", "bot"],
