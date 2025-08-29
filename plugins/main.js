@@ -31,9 +31,9 @@ cmd({
   pattern: "menu",
   react: '📁',
   alias: ["allmenu", "list"],
-  desc: "Get bot's alive status.",
+  desc: "Get bot's menu.",
   category: "main",
-  use: ".alive",
+  use: ".menu",
   filename: __filename
 }, async (client, message, args, { from, pushname, prefix, reply, l }) => {
   try {
@@ -73,7 +73,7 @@ cmd({
 *👨🏻‍💻 Owner:* 94763934860
 *╰──────────────╯*
 
-╭──❍ CONVERT MENU
+╭──❍ 🔄 CONVERT MENU
 │ attp
 │ toptt
 │ tts
@@ -86,8 +86,8 @@ cmd({
 │ npm
 │ ss
 │ vv
-╰──────────────╯
-╭──❍ DOWNLOAD MENU
+╰────────────╯
+╭──❍ 📥 DOWNLOAD MENU
 │ apk
 │ ig
 │ fb
@@ -108,8 +108,8 @@ cmd({
 │ download
 │ sinhalasub 
 │ sinhalasubtv
-╰──────────────╯
-╭──❍ GROUP MENU
+╰────────────╯
+╭──❍ 👥 GROUP MENU
 │ requests
 │ accept
 │ approve
@@ -128,8 +128,8 @@ cmd({
 │ tagadmin
 │ ginfo
 │ block
-╰──────────────╯
-╭──❍ MAIN MENU
+╰────────────╯
+╭──❍ 👑 MAIN MENU
 │ alive
 │ menu
 │ ping
@@ -153,8 +153,7 @@ cmd({
 │ ban
 │ apply
 │ setting
-│
-╰──────────────╯`;
+╰────────────╯`;
 
    // Load LOGO image
     let logoBuffer;
@@ -174,7 +173,7 @@ cmd({
     const buttons = [
       { buttonId: prefix + "ping", buttonText: { displayText: "BOT PING" }, type: 1 },
       { buttonId: prefix + "system", buttonText: { displayText: "BOT SYSTEM" }, type: 1 },
-      { buttonId: prefix + "menu", buttonText: { displayText: "COMMANDS MENU" }, type: 1 
+      { buttonId: prefix + "alive", buttonText: { displayText: "MAIN ALIVE" }, type: 1 
     ];
 
     // Normal button message data
@@ -195,7 +194,7 @@ cmd({
           rows: [
             { title: "MAIN PING", description: "bot speed", id: prefix + "ping" },
             { title: "MAIN SYSTEM", description: "bot system", id: prefix + "system" },
-            { title: "MAIN MENU", description: "commands menu", id: prefix + "menu" }
+            { title: "MAIN ALIVE", description: "bot alive", id: prefix + "menu" }
           ]
         }]
       };
@@ -228,7 +227,7 @@ cmd({
 });
 cmd({
   'pattern': "alive",
-  'react': '📁',
+  'react': '👋',
   'alias': ["online", "bot"],
   'desc': "Get bot's alive.",
   'category': "main",
