@@ -194,7 +194,7 @@ cmd({
           rows: [
             { title: "MAIN PING", description: "bot speed", id: prefix + "ping" },
             { title: "MAIN SYSTEM", description: "bot system", id: prefix + "system" },
-            { title: "MAIN ALIVE", description: "bot alive", id: prefix + "menu" }
+            { title: "MAIN ALIVE", description: "bot alive", id: prefix + "alive" }
           ]
         }]
       };
